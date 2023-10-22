@@ -1,0 +1,23 @@
+<h2> Implementing HashMap </h2>
+
+<h4> HashCode Calculation in JDK </h4>
+In Java, the hashCode() method is a method of the Object class, which is a superclass for all objects in Java. When you use this method, you typically call it on an object, such as a key in a HashMap, to get a 32-bit signed integer (int) that represents the value of that object.
+
+If the default implementation of hashCode() in the Object class is not overridden in a custom class, it returns a unique integer based on the memory address of the object. This means that each object will have a unique hash code by default.
+
+```
+public int hashCode(){
+    return Objects.hashCode(key) ^ Objects.hashCode(value);
+}
+```
+
+<h4> Hash Value Calculation in JDK </h4>
+
+```
+int h;
+return (key == null) ? 0 : (h = key.hashCode()) ^ (h>>>16);
+```
+
+<h4> My HashMap vs JDK HashMap</h4>
+
+* JDK Stores Hash Along with Node.
