@@ -35,3 +35,9 @@ return (key == null) ? 0 : (h = key.hashCode()) ^ (h>>>16);
 <h3> Difference Between HashMaps vs HashTable </h3>
 
 ![Differences](Images/Differences.png)
+
+<h2> Points for Interview </h2>
+
+* HashMap Represents HashTable DataStructure.
+* An Object Should Implement HashCode and Equlas() Method to be used as Key or Value in HashMap.
+* Default Capacity for HashMap is 16, If nothing is Specified.
