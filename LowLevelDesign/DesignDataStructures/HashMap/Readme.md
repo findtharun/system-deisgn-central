@@ -34,7 +34,7 @@ return (key == null) ? 0 : (h = key.hashCode()) ^ (h>>>16);
 
 <h3> Difference Between HashMaps vs HashTable </h3>
 
-![Differences](Images/Differences.png)
+![Differences](../Images/Differences.png)
 
 <h2> Points for Interview </h2>
 
