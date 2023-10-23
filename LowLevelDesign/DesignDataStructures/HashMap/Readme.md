@@ -41,3 +41,8 @@ return (key == null) ? 0 : (h = key.hashCode()) ^ (h>>>16);
 * HashMap Represents HashTable DataStructure.
 * An Object Should Implement HashCode and Equlas() Method to be used as Key or Value in HashMap.
 * Default Capacity for HashMap is 16, If nothing is Specified.
+
+<h2> USeful Resources </h2>
+
+* HashMap Implementation Theory : https://www.youtube.com/watch?v=SXfsBDTodpY
+* HashMap Implementation Code : https://www.youtube.com/watch?v=AsAymWn7D40

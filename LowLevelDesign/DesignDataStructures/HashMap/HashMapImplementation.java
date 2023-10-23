@@ -1,4 +1,4 @@
-package LowLevelDesign.DesignDataStructures;
+package LowLevelDesign.DesignDataStructures.HashMap;
 
 import java.util.ArrayList;
 
