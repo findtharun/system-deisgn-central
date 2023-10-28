@@ -4,10 +4,11 @@
 
 * Concept & Coding Solutions : https://gitlab.com/shrayansh8/interviewcodingpractise
 * Byte Byte Go Youtube: https://www.youtube.com/@ByteByteGo
-* Spanning Tree (Elegant Visualizations) : https://www.youtube.com/@SpanningTree
+* Spanning Tree (Elegant Visualizations): https://www.youtube.com/@SpanningTree
 * Interview Pen: https://www.youtube.com/@interviewpen
 * Exponent YouTube :
-* ThinkSoftware YouTube : https://www.youtube.com/@ThinkSoftware/
+* ThinkSoftware YouTube: https://www.youtube.com/@ThinkSoftware/
+* Tech Dummies : https://www.youtube.com/@TechDummiesNarendraL/videos
 
 <h3> High Level Design Problems </h3>
 
@@ -16,6 +17,6 @@
 <h3> Low Level Design Practive Problems </h3>
 
 * https://leetcode.com/tag/design/ (Basic to Medium)
-* https://www.geektrust.com/coding/challenges  (Advance Level)
+* https://www.geektrust.com/coding/challenges  (Advanced Level)
 
 
