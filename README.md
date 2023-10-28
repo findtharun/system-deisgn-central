@@ -1,6 +1,6 @@
 # The-SystemDesign-Verse
 
-<h2> Useful blogs and Resources </h2>
+<h2> Useful blogs and Resources for HLD</h2>
 
 * Concept & Coding Solutions : https://gitlab.com/shrayansh8/interviewcodingpractise
 * Byte Byte Go Youtube: https://www.youtube.com/@ByteByteGo
@@ -8,7 +8,11 @@
 * Interview Pen: https://www.youtube.com/@interviewpen
 * Exponent YouTube :
 * ThinkSoftware YouTube: https://www.youtube.com/@ThinkSoftware/
-* Tech Dummies : https://www.youtube.com/@TechDummiesNarendraL/videos
+* Tech Dummies: https://www.youtube.com/@TechDummiesNarendraL/videos
+  
+<h2> Useful blogs and Resources for HLD</h2>
+
+* https://sourcemaking.com/
 
 <h3> High Level Design Problems </h3>
 
