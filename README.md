@@ -3,10 +3,11 @@
 <h2> Useful blogs and Resources </h2>
 
 * Concept & Coding Solutions : https://gitlab.com/shrayansh8/interviewcodingpractise
-* Byte Byte Go Youtube : https://www.youtube.com/@ByteByteGo
-* Spanning Tree (Elegant Visulizations) : https://www.youtube.com/@SpanningTree
-* Interview Pen : https://www.youtube.com/@interviewpen
-* Exponent YouTube : 
+* Byte Byte Go Youtube: https://www.youtube.com/@ByteByteGo
+* Spanning Tree (Elegant Visualizations) : https://www.youtube.com/@SpanningTree
+* Interview Pen: https://www.youtube.com/@interviewpen
+* Exponent YouTube :
+* ThinkSoftware YouTube : https://www.youtube.com/@ThinkSoftware/
 
 <h3> High Level Design Problems </h3>
 
