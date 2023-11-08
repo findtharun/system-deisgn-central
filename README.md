@@ -14,6 +14,7 @@
 <h2> Useful blogs and Resources for HLD</h2>
 
 * https://sourcemaking.com/
+* https://github.com/ashishps1/awesome-system-design-resources
 
 <h3> High Level Design Problems </h3>
 
