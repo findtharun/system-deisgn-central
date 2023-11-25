@@ -11,6 +11,9 @@
 * Exponent YouTube :
 * ThinkSoftware YouTube: https://www.youtube.com/@ThinkSoftware/
 * Tech Dummies: https://www.youtube.com/@TechDummiesNarendraL/videos
+* https://www.youtube.com/@codeKarle/videos
+* Sudo Code
+
   
 <h2> Useful blogs and Resources for HLD</h2>
 
@@ -22,6 +25,8 @@
 
 * Head First Design Patterns Book
 * https://github.com/prasadgujar/low-level-design-primer
+* https://www.youtube.com/channel/UClsDOM_9oudXbaXK85wWAOQ
+* Sowmyajit Bhattacharyay
 
 <h3> High Level Design Problems </h3>
 
