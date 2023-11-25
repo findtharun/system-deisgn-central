@@ -20,6 +20,7 @@
 
 <h2> Useful blogs and Resources for LLD</h2>
 
+* Head First Design Patterns Book
 * https://github.com/prasadgujar/low-level-design-primer
 
 <h3> High Level Design Problems </h3>
