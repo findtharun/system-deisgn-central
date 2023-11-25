@@ -18,6 +18,10 @@
 * https://github.com/ashishps1/awesome-system-design-resources
 * https://scaleyourapp.com/
 
+<h2> Useful blogs and Resources for LLD</h2>
+
+* https://github.com/prasadgujar/low-level-design-primer
+
 <h3> High Level Design Problems </h3>
 
 * https://arpitbhayani.me/blogs/
