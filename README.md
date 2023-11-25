@@ -5,6 +5,7 @@
 * Concept & Coding Solutions : https://gitlab.com/shrayansh8/interviewcodingpractise
 * Byte Byte Go Youtube: https://www.youtube.com/@ByteByteGo
 * https://github.com/donnemartin/system-design-primer
+* https://github.com/binhnguyennus/awesome-scalability
 * Spanning Tree (Elegant Visualizations): https://www.youtube.com/@SpanningTree
 * Interview Pen: https://www.youtube.com/@interviewpen
 * Exponent YouTube :
