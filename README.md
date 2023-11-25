@@ -15,6 +15,7 @@
 
 * https://sourcemaking.com/
 * https://github.com/ashishps1/awesome-system-design-resources
+* https://scaleyourapp.com/
 
 <h3> High Level Design Problems </h3>
 
