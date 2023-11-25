@@ -2,6 +2,7 @@
 
 <h2> Useful blogs and Resources for HLD</h2>
 
+* Designing Data-Intensive Applications
 * Concept & Coding Solutions : https://gitlab.com/shrayansh8/interviewcodingpractise
 * Byte Byte Go Youtube: https://www.youtube.com/@ByteByteGo
 * https://github.com/donnemartin/system-design-primer
