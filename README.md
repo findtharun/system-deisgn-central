@@ -25,6 +25,7 @@
 
 <h2> Useful blogs and Resources for LLD</h2>
 
+* Practice LLD : https://codezym.com/
 * Head First Design Patterns Book
 * https://github.com/prasadgujar/low-level-design-primer
 * https://www.youtube.com/channel/UClsDOM_9oudXbaXK85wWAOQ
