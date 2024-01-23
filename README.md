@@ -17,7 +17,6 @@
 * https://www.youtube.com/@codeKarle/videos
 * Sudo Code
 
-  
 <h2> Useful blogs and Resources for HLD</h2>
 
 * https://sourcemaking.com/
