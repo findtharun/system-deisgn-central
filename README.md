@@ -3,12 +3,13 @@
 <h2> Useful blogs and Resources for HLD</h2>
 
 * https://leetdesign.com/ (For Practising HLD)
-* Designing Data-Intensive Applications
+* Designing Data-Intensive Applications Book - Orielly
 * Concept & Coding Solutions : https://gitlab.com/shrayansh8/interviewcodingpractise
 * Byte Byte Go Youtube: https://www.youtube.com/@ByteByteGo
 * https://blog.bytebytego.com/
 * https://github.com/donnemartin/system-design-primer
 * https://github.com/binhnguyennus/awesome-scalability
+* https://www.enjoyalgorithms.com/system-design/
 * Spanning Tree (Elegant Visualizations): https://www.youtube.com/@SpanningTree
 * Interview Pen: https://www.youtube.com/@interviewpen
 * Exponent YouTube :
