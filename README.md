@@ -28,6 +28,7 @@
 
 * Practice LLD : https://codezym.com/
 * Head First Design Patterns Book
+* Design Patterns Repo : https://github.com/JakubVojvoda/design-patterns-java/
 * https://github.com/prasadgujar/low-level-design-primer
 * https://www.youtube.com/channel/UClsDOM_9oudXbaXK85wWAOQ
 * Sowmyajit Bhattacharyay
