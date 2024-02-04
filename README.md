@@ -2,6 +2,7 @@
 
 <h2> Useful blogs and Resources for HLD</h2>
 
+* https://github.com/donnemartin/system-design-primer
 * https://leetdesign.com/ (For Practising HLD)
 * Designing Data-Intensive Applications Book - Orielly
 * Concept & Coding Solutions : https://gitlab.com/shrayansh8/interviewcodingpractise
@@ -23,6 +24,7 @@
 * https://sourcemaking.com/
 * https://github.com/ashishps1/awesome-system-design-resources
 * https://scaleyourapp.com/
+* https://distributedcomputing.dev/
 
 <h2> Useful blogs and Resources for LLD</h2>
 
@@ -32,6 +34,7 @@
 * https://github.com/prasadgujar/low-level-design-primer
 * https://www.youtube.com/channel/UClsDOM_9oudXbaXK85wWAOQ
 * Sowmyajit Bhattacharyay
+* https://www.lowleveldesign.io/
 
 <h3> High Level Design Problems </h3>
 
