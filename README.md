@@ -36,6 +36,10 @@
 * Sowmyajit Bhattacharyay
 * https://www.lowleveldesign.io/
 
+<h3> High Level Design Practice</h3>
+
+* https://codemia.io/
+
 <h3> High Level Design Problems </h3>
 
 * https://arpitbhayani.me/blogs/
