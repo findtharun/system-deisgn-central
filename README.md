@@ -17,6 +17,7 @@
 * ThinkSoftware YouTube: https://www.youtube.com/@ThinkSoftware/
 * Tech Dummies: https://www.youtube.com/@TechDummiesNarendraL/videos
 * https://www.youtube.com/@codeKarle/videos
+* https://www.youtube.com/@SystemDesignInterview
 * Sudo Code 
 
 <h2> Useful blogs and Resources for HLD</h2>
