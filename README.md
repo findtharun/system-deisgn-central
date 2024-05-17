@@ -30,13 +30,16 @@
 <h2> Useful blogs and Resources for LLD</h2>
 
 * Practice LLD : https://codezym.com/
-* LLD Coding : https://lldcoding.com/
+* https://lldcoding.com/
 * Head First Design Patterns Book
 * Design Patterns Repo : https://github.com/JakubVojvoda/design-patterns-java/
 * https://github.com/prasadgujar/low-level-design-primer
 * https://www.youtube.com/channel/UClsDOM_9oudXbaXK85wWAOQ
 * Sowmyajit Bhattacharyay
 * https://www.lowleveldesign.io/
+
+### Machine Coding
+* Machine Coding : https://lldcoding.com/
 
 <h3> High Level Design Practice</h3>
 
@@ -46,7 +49,7 @@
 
 * https://arpitbhayani.me/blogs/
 
-<h3> Low Level Design Practive Problems </h3>
+<h3> Low Level Design Practice Problems </h3>
 
 * https://leetcode.com/tag/design/ (Basic to Medium)
 * https://www.geektrust.com/coding/challenges  (Advanced Level)
