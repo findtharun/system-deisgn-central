@@ -30,6 +30,7 @@
 <h2> Useful blogs and Resources for LLD</h2>
 
 * Practice LLD : https://codezym.com/
+* LLD Coding : https://lldcoding.com/
 * Head First Design Patterns Book
 * Design Patterns Repo : https://github.com/JakubVojvoda/design-patterns-java/
 * https://github.com/prasadgujar/low-level-design-primer
