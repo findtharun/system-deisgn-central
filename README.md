@@ -26,6 +26,7 @@
 * https://github.com/ashishps1/awesome-system-design-resources
 * https://scaleyourapp.com/
 * https://distributedcomputing.dev/
+* Dev Interview Questions :https://devinterview.io/
 
 <h2> Useful blogs and Resources for LLD</h2>
 
