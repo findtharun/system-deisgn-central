@@ -27,6 +27,7 @@
 * https://scaleyourapp.com/
 * https://distributedcomputing.dev/
 * Dev Interview Questions :https://devinterview.io/
+* https://leetcode.com/discuss/interview-question/system-design/5324660/top-25-hld-questions-list
 
 <h2> Useful blogs and Resources for LLD</h2>
 
