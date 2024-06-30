@@ -22,8 +22,8 @@
 
 <h2> Useful blogs and Resources for HLD</h2>
 
-* https://sourcemaking.com/
 * https://github.com/ashishps1/awesome-system-design-resources
+* https://www.youtube.com/c/SystemDesignInterview
 * https://scaleyourapp.com/
 * https://distributedcomputing.dev/
 * Dev Interview Questions :https://devinterview.io/
@@ -31,6 +31,7 @@
 
 <h2> Useful blogs and Resources for LLD</h2>
 
+* https://sourcemaking.com/
 * Practice LLD : https://codezym.com/
 * https://lldcoding.com/
 * Head First Design Patterns Book
