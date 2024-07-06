@@ -51,4 +51,35 @@ https://youtu.be/EpyPFnjue38
 - Least Connection
 - Least Response Time
 
+## Data Transfer between Client and Server
+- Client Pull 
+- Server Push
+- RealTime (Continuous Interaction) 
 
+### Cient Pull (Short Polling, Long Polling)
+
+- Short Polling: In a short polling client requests data from the server and the server will return the response if it is available and if it is not available then it returns an empty response. This process will be repeated at regular intervals.
+
+- Long Polling: In long polling, the client sends a request to the server and if the response is not available then the server will hold the request till the response gets available, & after the availability of the response, the server will send the response back. After getting a response, again the request will be made either immediately or after some period of time and this process will repeat again and again. In simple words, the client will always be in the live connection to the server.
+    - Eg : Train Tracking in Booking System
+
+Overview : https://www.youtube.com/watch?v=ZBM28ZPlin8&list=PL9nWRykSBSFgkCmkYdEfmXHX71m1UybNL&index=4
+- https://www.geeksforgeeks.org/what-is-long-polling-and-short-polling/
+- Web Sockets : https://www.enjoyalgorithms.com/blog/web-sockets-in-system-design/
+
+### Server Push (Server Sent Events)
+
+SSE is Server Push Technology that establishes a long lasting connection between client and server. Server sends continous data streams and updates ,clients use Javascript API called (__EventSource__) to achieve this.
+- Eg : Newsfeeds / Social Media , Updating Stock Prices, Live Sports Update
+
+More explanation can be found here : https://www.enjoyalgorithms.com/blog/server-sent-events/
+
+### RealTime - (Web Sockets)
+
+Enables Bidirectional Communication between clients and server. It Provides full-duplex communication channel over a single TCP Connection and allow data transfers in both Directions.
+- Web socket remains open until one of the parties close it.
+- They are HTTP compatible as well.
+
+Eg : Real Time Messaging, MultiPlayer Gaming etc..
+
+More explanation cane be found here : https://www.enjoyalgorithms.com/blog/web-sockets-in-system-design/
