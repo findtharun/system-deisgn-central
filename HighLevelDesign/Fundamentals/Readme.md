@@ -1,3 +1,9 @@
+Distributed Systems - A colelection of independent computers that appears to its users as one Computer.
+ - Computers operate Concurrently
+ - Computers Fail Independently
+ - They do not operate on Global Clock
+
+
 ### Latency vs Throughput
 
 - Latency determines the delay that a user experiences when they send or receive data from the network.
