@@ -18,8 +18,6 @@ Partitioning the Database to Multiple Partitions/ Creating Multple Databases wit
 
 Sharding & Partitioning Explanation : https://www.youtube.com/watch?v=wXvljefXyEo
 
-### Database Partitioning
-
 #### Partitioning vs Indexing
 
 We use Partitioning to Isolate Chunks of Data from Large database where as Indexing is used to Query Relatively Small amounts of data.
@@ -27,3 +25,17 @@ We use Partitioning to Isolate Chunks of Data from Large database where as Index
 
 Ex : Partitioning database based on User location
 Indexing Based on Last Name
+
+
+### Database Replication (Master Slave Architecture)
+
+Overview : https://www.youtube.com/watch?v=bI8Ry6GhMSE&t
+
+- Leader - Follower Architecture  
+    - Synchronous Replication (Slower but Strong Consitency, During Failover write operations are blocked)
+    - Asynchronous Replication (Faster But no Consistency (During Failover read operations are incosistent as well, write operations are blocked))
+- Multi- Leader (During Failover, other leaders can take write requests - consenus algorithms such as paxos can be used) 
+    - It is complex (Leader election and Conflict resolution is resource intensive) but Effective.
+- Leaderless Replication (Amazon Dynamo DB re Popularized this), Most Cloud providers use this architecture.
+    - 
+

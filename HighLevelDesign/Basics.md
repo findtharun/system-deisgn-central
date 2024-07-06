@@ -17,3 +17,10 @@ https://youtu.be/EpyPFnjue38
     -  API Gateway : Single Entry Point for Microservices , widely used in serverless architecture.
         - It handles authentication, authorization and routing requests.
     - Loadbalancer : Distribute Load across servers, downscale and upscale as required.
+
+#### Consistent Hashing
+
+- Overview : https://www.youtube.com/watch?v=UF9Iqmg94tk
+    - Basic Consistent Hashing  - Uneven Distribution
+    - Virtual Nodes + Basic Consistent Hashing - Uniform Distribution
+
