@@ -1,4 +1,9 @@
-### Database Sharding
+### Database Indexing
+
+Overview : https://www.youtube.com/watch?v=fsG1XaZEa78
+Best Explanation : https://www.youtube.com/watch?v=lYh6LrSIDvY
+
+### Database Sharding & Partitioning
 
 Dividing Data  Across Multiple Database Servers
 
@@ -6,10 +11,14 @@ Dividing Data  Across Multiple Database Servers
 - Range Based Sharding
 - Hash Based Sharding (Consistent Hashing)
 
-### Database Partitioning
+Partitioning the Database to Multiple Partitions/ Creating Multple Databases with in the Same Server. 
+- Partitioning Overview : https://www.youtube.com/watch?v=l8kUZvM_rvQ
+- Sharding Overview : https://www.youtube.com/watch?v=XP98YCr-iXQ
 
-Partitioning the Database to Multiple Partitions with in the Same Server. 
-- Explanation : https://www.youtube.com/watch?v=l8kUZvM_rvQ
+
+Sharding & Partitioning Explanation : https://www.youtube.com/watch?v=wXvljefXyEo
+
+### Database Partitioning
 
 #### Partitioning vs Indexing
 
