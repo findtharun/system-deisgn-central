@@ -3,6 +3,19 @@ Distributed Systems - A colelection of independent computers that appears to its
  - Computers Fail Independently
  - They do not operate on Global Clock
 
+ #### Key Characteristics of Distributed Systems
+- Scalability (Horizontal, Vertical)
+- Performance (Latency , Throughput)
+- Availability
+- Reliability (If System is reliable it is Available, but not vice versa)
+- Other Key Characteristics
+    - Security
+    - Concurrency
+    - Manageability
+
+#### Types
+- Client Server Architecture
+- P2P Architecture
 
 ### Latency vs Throughput
 
