@@ -19,6 +19,7 @@
 * https://www.youtube.com/@codeKarle/videos
 * https://www.youtube.com/@SystemDesignInterview
 * Sudo Code 
+* https://www.youtube.com/@jordanhasnolife5163
 
 <h2> Useful blogs and Resources for HLD</h2>
 
