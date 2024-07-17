@@ -1,5 +1,7 @@
 # The-SystemDesign-Verse
 
+- Rest API Design Fundamentals : https://www.restapitutorial.com/
+
 ## High Level Design Problems
 
 * https://arpitbhayani.me/blogs/

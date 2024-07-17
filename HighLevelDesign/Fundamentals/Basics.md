@@ -15,8 +15,10 @@ https://youtu.be/EpyPFnjue38
     - Reverse Proxy : Servers identity is Hidden (acts as Intermediary between different servers) - Eg : Nginx
         - Provides Security, SSL Termination, Load Distribution and Caching. (They can not upscale/downscale)
     -  API Gateway : Single Entry Point for Microservices , widely used in serverless architecture.
-        - It handles authentication, authorization and routing requests.
+        - It handles authentication, authorization and routing requests, Load Distribution, Rate Limiting
     - Loadbalancer : Distribute Load across servers, downscale and upscale as required.
+
+NOTE : API Gateways,Loadbalancer (Typically use AUto Scaling Groups), We use API Gateway for Micro Service Architecture, load Balancers in General.
 
 ## Load Balancer Deepdive
 

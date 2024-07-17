@@ -4,7 +4,7 @@ Distributed Systems - A colelection of independent computers that appears to its
  - They do not operate on Global Clock
 
  #### Key Characteristics of Distributed Systems
-- Scalability (Horizontal, Vertical)
+- Scalability (Horizontal, Vertical) - https://blog.algomaster.io/p/scalability
 - Performance (Latency , Throughput)
 - Availability
 - Reliability (If System is reliable it is Available, but not vice versa)
@@ -21,6 +21,7 @@ Distributed Systems - A colelection of independent computers that appears to its
 
 - Latency determines the delay that a user experiences when they send or receive data from the network.
 - Throughput determines the number of users that can access the network at the same time.
+https://aws.amazon.com/compare/the-difference-between-throughput-and-latency/
 
 
 ### Concurrency vs Parallelism
