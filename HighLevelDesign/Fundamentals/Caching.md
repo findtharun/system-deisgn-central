@@ -17,19 +17,21 @@ Best Explanation
 
 ## Application Caching 
 
-### 5 Caching Strategies
+### Caching Strategies
 Best Explanation : https://www.youtube.com/watch?v=2zIFUqTx_TU
 
 #### Read Heavy
-- __Cache Aside__ (Read from Cache If present else read from DB, Later Cache is updated)
+- __Cache Aside__ (Read from Cache If present else read from DB, Later Cache is updated) - Widely used (Redis, Memcached etc..)
 - __Read Through__ (Read from Cache If present else cache updates iself from DB and return to client)
 
 Both Cache Around and Readthrough are same except that in Cache Around application takes care of Updating Cache, In Read-Through Strategy Cache by default updates itself.
 
 #### Write Heavy
 
-- __Write Through__ (Write to Cache and Write to DB -- Both happens synchronously)
-- __Write Back__ (Write to Cache every Time -- DB is updated at intervals using Cache -- Asynchronously)
+- __Write Through__ (Write to Cache and Write to DB -- Both happens synchronously) - Best when write operations are less
+- __Write Back__ (Write to Cache every Time -- DB is updated at intervals using Cache -- Asynchronously) 
+    - Best for Write Heavy
+    - Widely used in Relational Databases
 - __Write Around__ (Write Directly to DB and Update Cache when required)
 
 

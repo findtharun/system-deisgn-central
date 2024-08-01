@@ -5,7 +5,7 @@ Best Explanation : https://www.youtube.com/watch?v=lYh6LrSIDvY
 
 ### Database Sharding & Partitioning
 
-Dividing Data  Across Multiple Database Servers
+Sharding - Dividing Data  Across Multiple Database Servers
 
 - Geo Based Sharding
 - Range Based Sharding
@@ -37,6 +37,8 @@ Overview : https://www.youtube.com/watch?v=bI8Ry6GhMSE&t
 - Multi- Leader (During Failover, other leaders can take write requests - consenus algorithms such as paxos can be used) 
     - It is complex (Leader election and Conflict resolution is resource intensive) but Effective.
 - Leaderless Replication (Amazon Dynamo DB re Popularized this), Most Cloud providers use this architecture.
+    - consistency is achieved through a combination of mechanisms such as quorum-based voting and conflict resolution.
+NOTE : Consensus is used in Terms of Failover, Quorum based voting methods are used in agreements and resolutions.
 
 ### Consistent Hashing
 
