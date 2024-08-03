@@ -11,6 +11,6 @@
 
 * HLD Solution Template : https://leetcode.com/discuss/interview-question/system-design/5073436/system-design-template
   
-
+https://systemdesignguru.github.io/index.html
 
 https://www.youtube.com/@TechPrepYT
