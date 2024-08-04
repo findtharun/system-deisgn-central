@@ -1,4 +1,6 @@
 Explanation : [Tech Prep YT Channel](https://www.youtube.com/watch?v=5DTxuMDYvNc)
+- Deep Dive : https://www.youtube.com/watch?v=e_aw6iJOEnY
+    - Complete design : https://drive.google.com/file/d/1kTIvPhs79P8Va3WaceFKjIMhFY3v6ibF/view
 
 Web Cralwer is used for Indexing, Data Mining, Web Archivals.
 
@@ -29,9 +31,6 @@ Web Cralwer is used for Indexing, Data Mining, Web Archivals.
 - URL Frontier (Priority Queue + Politness Queue (Robots.txt), Freshness) - It is a Server with Good disk storage
 - Use S3 to Store Content, For checking Duplicate Content we can use MD5 Hashing - But Crawlers widely use SIM Hashing
 - For Storing URLs we can use No SQL Key Value Store 
-
-Complete design : https://drive.google.com/file/d/1kTIvPhs79P8Va3WaceFKjIMhFY3v6ibF/view
-
 
 ## Edge Cases & Security
 
