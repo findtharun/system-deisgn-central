@@ -13,4 +13,8 @@
   
 https://systemdesignguru.github.io/index.html
 
+https://github.com/bhavul/System-Design-Cheatsheet
+
+https://www.youtube.com/watch?v=FQ61M65Kwwk&list=PL8hP5HjAnJ3_mT7IHXjlbpYX_xiz4v_kP
+
 https://www.youtube.com/@TechPrepYT
