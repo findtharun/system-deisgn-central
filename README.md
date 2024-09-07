@@ -25,9 +25,12 @@
 
 * https://github.com/ashishps1/awesome-system-design-resources
 * https://www.youtube.com/c/SystemDesignInterview
+* https://www.youtube.com/watch?v=FQ61M65Kwwk&list=PL8hP5HjAnJ3_mT7IHXjlbpYX_xiz4v_kP
+* https://www.youtube.com/@TechPrepYT 
 * https://scaleyourapp.com/
 * https://distributedcomputing.dev/
 * Dev Interview Questions :https://devinterview.io/
+* https://github.com/bhavul/System-Design-Cheatsheet
 * https://leetcode.com/discuss/interview-question/system-design/5324660/top-25-hld-questions-list
 
 <h2> Useful blogs and Resources for LLD</h2>

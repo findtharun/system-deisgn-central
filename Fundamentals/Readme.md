@@ -44,3 +44,4 @@ Web Service: Traditionally uses XML for SOAP and JSON/XML for REST.
 ```
 
 https://rapidapi.com/blog/api-vs-web-service/
+Rest API Design Fundamentals : https://www.restapitutorial.com/
