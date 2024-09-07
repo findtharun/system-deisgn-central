@@ -28,8 +28,9 @@ Componenets Involved
 
 ### Life Cycle of a Query 
 
-#### STEP I 
+![alt text](Images/QueryLifecycle.png)
 
+#### STEP I 
 1. Once Parse tree is generated, it is checked whether exists in Plan Cache, if present it will execute the plan.
     (NOTE : In Parser even if Table and column does not exists It will pass because it checks syntax)
 2. Binder (Consistency, Data Types Checks) - Updates Parse Tree
