@@ -42,7 +42,7 @@ __Data Model__
 
 ### API Design
 
-We use RPC Interface for all communications (Because most of them will be Service-to-service, real-time internal calls)
+We use RPC Interface for Perofrming actions / all communications (Because most of them will be Service-to-service, real-time internal calls)
 - submit_job(user_id, schedule, code_location)
 - retrieve_all_jobs(user_id)
 - delete_job(user_id, job_id)
