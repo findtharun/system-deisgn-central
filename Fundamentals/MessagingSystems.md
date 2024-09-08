@@ -16,4 +16,13 @@ Eg : Stock Broker Application (all requests are in Queue, Stock Broker has 1 Cor
 - Messages can be retained for a period such that new consumers can consume them.
 - AWS SNS
 
+### Kafka vs Queue
+- Messages are consumed by any one in Queue, where as all Consumers can read message in Kafka
+- Messages are removed once consumed in Queue, Kafka Retains them (Default 1 Week)
+- Message Ordering (Any Queue can access any message) , In Kafka Partitions, Offsets are present to ensure order is maintained.
+- Queues have no Limit over consumers, Kafka has no.of consumers  Per consumer Group = no.of partitions in the topic
+
+Explanation : https://www.youtube.com/watch?v=7gMm0iQNZGA
+
 #### Kafka Combines the best of Both Queues and Sub-Pub paradigms.
+
