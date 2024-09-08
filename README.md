@@ -1,5 +1,7 @@
 # The-SystemDesign-Verse
 
+![alt text](Images/SystemDesignBlueprint.png)
+
 <h2> Useful blogs and Resources for HLD</h2>
 
 * https://github.com/donnemartin/system-design-primer
