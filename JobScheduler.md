@@ -35,10 +35,10 @@ The system updates the next execution timestamp of a job after running it (by in
 
 __Data Model__
 
-- We need one Table for Next Time Stamp (UNIX TS be used as Normal Time is difficult to Query), Job Id
 - One for Job Table
 - One for Execution Log
 ![alt text](Images/SchedulerModel.png)
+- We need one Table for Next Time Stamp (UNIX TS be used as Normal Time is difficult to Query), Job Id
 
 ### API Design
 
@@ -49,12 +49,6 @@ We use RPC Interface for Perofrming actions / all communications (Because most o
 - get_exec_history(job_id)
 - get_jobs_in_next_5_mins()
 
- __RPC__ for Internal System
-- Job Dispatching: The job scheduler makes an RPC call to a worker node to dispatch a job for execution.
- - Health Checks (Heart Beats): The scheduler periodically makes RPC calls to worker nodes to check their health status or availability.
-- Status Updates: Workers report job progress or completion status to the scheduler via RPC calls.
-- Job Cancellation: The scheduler sends an RPC request to a worker to stop a job if it needs to be canceled before completion.
-
 ## Architecture
 
 - Web Service: The gateway to the scheduling system. All RPC calls from the client are handled by one of the RPC servers in this service.
@@ -62,5 +56,11 @@ We use RPC Interface for Perofrming actions / all communications (Because most o
     - MapReduce, where a master is used to assign and monitor workers. If a worker dies, the master will resend its work to some other nodes
     - Uses Consistent Hashing to Shard the DB
 - Execution Service: In this service, we manage a large group of execution workers. Each worker is a consumer and executes whatever jobs it gets from the queue. Additional bookkeeping is needed to ensure re-execution upon worker failures.
+
+ __RPC__ for Internal System
+- Job Dispatching: The job scheduler makes an RPC call to a worker node to dispatch a job for execution.
+ - Health Checks (Heart Beats): The scheduler periodically makes RPC calls to worker nodes to check their health status or availability.
+- Status Updates: Workers report job progress or completion status to the scheduler via RPC calls.
+- Job Cancellation: The scheduler sends an RPC request to a worker to stop a job if it needs to be canceled before completion.
 
 ![alt text](Images/SchedulerArchitecture.png)
