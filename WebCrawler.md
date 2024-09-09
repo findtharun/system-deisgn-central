@@ -29,6 +29,7 @@ Web Cralwer is used for Indexing, Data Mining, Web Archivals.
 
 - Seed URLs --> URL Frontier --> HTML Downloader (DNs Resolver API) --> Content Parser --> Content Seen --> Link Extractor (API, BFS)--> URL Filter --> URL Seen (Bloom Filter, Hashing)
 - URL Frontier (Priority Queue + Politness Queue (Robots.txt), Freshness) - It is a Server with Good disk storage
+![alt text](Images/CrawlerFrontier.png)
 - Use S3 to Store Content, For checking Duplicate Content we can use MD5 Hashing - But Crawlers widely use SIM Hashing
 - For Storing URLs we can use No SQL Key Value Store 
 
