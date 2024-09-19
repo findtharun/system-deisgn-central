@@ -60,6 +60,8 @@ Note (Knowledge Base): Cassandra, HBase ( In each Object, It can have Multiple c
 Sever, LoadBalance , Cache , DB 
 
 ### HLD Deepdive
+![alt text](Images/HighLevelDesign.png)
+
 
 1. With Hashing Workflow (MD5, CRC32 etc.. we extract only first 7 Characters, if exists we rehash)
 ![alt text](Images/Hashing.png)
@@ -70,3 +72,8 @@ Sever, LoadBalance , Cache , DB
 - Validate URLs before Sending (To Prevent from SQL Injection, other attacks)
 - Rate Limiter can be Implemented
 - Enhanced Monitoring and logging
+
+
+## Resources
+
+- https://www.code-recipe.com/post/url-shortener
