@@ -18,8 +18,7 @@ Rest API Design Fundamentals : https://www.restapitutorial.com/
 
 - REST - Focus on Resource and CRUD Operations (GET User, Create User Etc..)
 - RPC (Remote Procedure Call) - Focus on Function / Actions (Archive, Deactivate, Search, etc..)
-- GraphQL (Goo
-d when need data filtering on client side.(Flexibility))
+- GraphQL (Good when need data filtering on client side.(Flexibility))
 
 ## Event Driven Paradigm
 
