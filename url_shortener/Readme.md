@@ -23,7 +23,15 @@ Estimation
 
 ### DB Design
 
-__NOSQL__ (CASSANDRA)
+__NOSQL__ (Dynamo DD )
+
+### Java Implementation
+- Here we stored in HashMap, But in real life we store in No SQL DB (Cassandra) /Mongo DB. 
+
+Cassandra is Column Family Database (Ideal for Semi Structured data with related Groups).   Note (Knowledge Base): Cassandra, HBase ( In each Object, It can have Multiple columns or 1 Column It does not matter unlike SQL)
+- Cassandra distributes  data across Partitions and Queries efficiently.
+
+- Since We Do not have much relations, Our is almostg equivalent to Key Value Paire , Scalability and Latency is top Priority. Hence Dynamo DB is better.
 
 - Same Short Url for all Users
 Table I : Long Url (PK), Unqiue ID, Short Url, Creation TimeStamp
@@ -49,11 +57,7 @@ Decode
 - Decode Unique Id by applying base62 Decoding on ShortUrl
 - Return Long Url
 
-### Java Implementation
-- Here we stored in HashMap, But in real life we store in No SQL DB (Cassandra). Cassandra is Column Family Database (Ideal for Semi Structured data with related Groups).  
 
-Note (Knowledge Base): Cassandra, HBase ( In each Object, It can have Multiple columns or 1 Column It does not matter unlike SQL)
-- Cassandra distributes  data across Partitions and Queries efficiently.
 
 ### HLD
 
@@ -77,3 +81,4 @@ Sever, LoadBalance , Cache , DB
 ## Resources
 
 - https://www.code-recipe.com/post/url-shortener
+- https://medium.com/@sandeep4.verma/system-design-scalable-url-shortener-service-like-tinyurl-106f30f23a82
