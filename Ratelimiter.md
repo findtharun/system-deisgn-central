@@ -26,7 +26,7 @@ It is better to put at Middelware (Which can support all Architectures)
 - We can use Queue to Store (202 - Accepted)
   Additionally we can send more info in headers in response
 
- 
+ ![alt text](Images/RateLimiter.png)
 ### Algorithms
 
 - Token Bucket

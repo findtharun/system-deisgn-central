@@ -75,6 +75,7 @@ Sever, LoadBalance , Cache , DB
 
 - Validate URLs before Sending (To Prevent from SQL Injection, other attacks)
 - Rate Limiter can be Implemented
+- Analytics Service can be added
 - Enhanced Monitoring and logging
 
 
@@ -82,3 +83,4 @@ Sever, LoadBalance , Cache , DB
 
 - https://www.code-recipe.com/post/url-shortener
 - https://medium.com/@sandeep4.verma/system-design-scalable-url-shortener-service-like-tinyurl-106f30f23a82
+- System Design Fight Club : https://www.youtube.com/watch?v=tm-SWO9gUAU
