@@ -5,8 +5,15 @@
 - DDOS
     - Having BotNet (Group of Affected Servers/ Computers) using them all at a time to produce heavy Traffic
 
+  RateLimiter
+  - Prevents Resource Starvation
+  - Reduces Cost
+  - Prevent Systems from being Overloaded
+
 Explanation : https://www.youtube.com/watch?v=gVVDo2h6DwA&t
 https://www.imperva.com/learn/application-security/rate-limiting/
+
+![](Images/RateLimiterRequirements.png)
 
 ### Where Rate Limiter Exists
 
