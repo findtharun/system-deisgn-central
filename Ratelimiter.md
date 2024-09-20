@@ -36,7 +36,7 @@ It is better to put at Middelware (Which can support all Architectures)
  ![alt text](Images/RateLimiter.png)
 ### Algorithms
 
-- Token Bucket
+- Token Bucket (Used by Amazon and Stripe)
 - Leaky Bucket 
 (Each Ip Address has its own Bucket), For instance, if a user is allowed to make 1 post per second, add 150 friends per day, and like 5 posts per second, 3 buckets are required for each user.
 
