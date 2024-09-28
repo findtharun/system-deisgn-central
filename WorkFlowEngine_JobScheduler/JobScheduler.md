@@ -37,7 +37,7 @@ __Data Model__
 
 - One for Job Table
 - One for Execution Log
-![alt text](Images/SchedulerModel.png)
+![alt text](../Images/SchedulerModel.png)
 - We need one Table for Next Time Stamp (UNIX TS be used as Normal Time is difficult to Query), Job Id
 
 ### API Design
@@ -63,4 +63,4 @@ We use RPC Interface for Perofrming actions / all communications (Because most o
 - Status Updates: Workers report job progress or completion status to the scheduler via RPC calls.
 - Job Cancellation: The scheduler sends an RPC request to a worker to stop a job if it needs to be canceled before completion.
 
-![alt text](Images/SchedulerArchitecture.png)
+![alt text](../Images/SchedulerArchitecture.png)

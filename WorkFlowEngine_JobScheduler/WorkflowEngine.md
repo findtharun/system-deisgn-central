@@ -27,8 +27,8 @@ Workflow Engine is widely used in Event Driven Architecture.
 
 
 ## High Level Design
-![alt text](Images/WorkflowEngine/FunctionalRequirements.png)
-![alt text](Images/WorkflowEngine/NonFunctionalRequirements.png)
+![alt text](../Images/WorkflowEngine/FunctionalRequirements.png)
+![alt text](../Images/WorkflowEngine/NonFunctionalRequirements.png)
 ### Components
 - Admin -> UI-> WorkFlow Storage(S3)
 - Main DB (Meta Data , Workflow Status) - Dynamo DB 
@@ -38,7 +38,7 @@ Workflow Engine is widely used in Event Driven Architecture.
 - Queue (Rabbit MQ - for Putting out Tasks)
 - Task Excutor Service
 - Monitoring and Logging Services
-![alt text](Images/WorkflowEngine/WorkflowEngine.png)
+![alt text](../Images/WorkflowEngine/WorkflowEngine.png)
 
 ### Deepdive
 
@@ -71,10 +71,10 @@ T2- W1 - Paused
 T1 - W2 - Running
 ```
 
-![alt text](Images/WorkflowEngine/WorkflowScheduler.png)
+![alt text](../Images/WorkflowEngine/WorkflowScheduler.png)
 
 ### API Design
-![alt text](Images/WorkflowEngine/API.png)
+![alt text](../Images/WorkflowEngine/API.png)
 ## USeful Articles & Resources
 
 - https://xavyr-rademaker.medium.com/introduction-to-workflow-engines-b0dd6e4b6628
