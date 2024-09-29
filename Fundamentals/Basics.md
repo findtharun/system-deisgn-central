@@ -19,7 +19,7 @@ https://youtu.be/EpyPFnjue38
         - API Composition (Eg : Based on Device Type they call different Microservices and Load Data)
         - Authentication & Authorization
         - RateLimiting
-        - Service Discovery (In Microservices, one will be down, new one gets created. API Can call Service Discovery or has its own which can route traffic efficiently to the target service)
+        - Service Discovery (In Microservices, one will be down, new one gets created. API Can call Service Discovery or has its own which can route traffic efficiently to the target service) - Eg : Eureka, ZooKeeper
         - Request - Response Transformation
         - Response Caching
 NOTE : API Gateways,Loadbalancer (Typically use AUto Scaling Groups), We use API Gateway for Complex Micro Service Architecture, load Balancers in General.
