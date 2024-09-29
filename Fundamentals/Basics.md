@@ -14,11 +14,17 @@ https://youtu.be/EpyPFnjue38
 - Reverse Proxy vs API Gateway vs Load Balancer : https://www.youtube.com/watch?v=RqfaTIWc3LQ
     - Reverse Proxy : Servers identity is Hidden (acts as Intermediary between different servers) - Eg : Nginx
         - Provides Security, SSL Termination, Load Distribution and Caching. (They can not upscale/downscale)
-    -  API Gateway : Single Entry Point for Microservices , widely used in serverless architecture.
-        - It handles authentication, authorization and routing requests, Load Distribution, Rate Limiting
     - Loadbalancer : Distribute Load across servers, downscale and upscale as required.
+    - API Gateways are much smarter than Loadbalancers.
+        - API Composition (Eg : Based on Device Type they call different Microservices and Load Data)
+        - Authentication & Authorization
+        - RateLimiting
+        - Service Discovery (In Microservices, one will be down, new one gets created. API Can call Service Discovery or has its own which can route traffic efficiently to the target service)
+        - Request - Response Transformation
+        - Response Caching
+NOTE : API Gateways,Loadbalancer (Typically use AUto Scaling Groups), We use API Gateway for Complex Micro Service Architecture, load Balancers in General.
 
-NOTE : API Gateways,Loadbalancer (Typically use AUto Scaling Groups), We use API Gateway for Micro Service Architecture, load Balancers in General.
+![](../Images/APIGateway.png)
 
 ## Load Balancer Deepdive
 
