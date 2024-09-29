@@ -40,7 +40,7 @@ Eg : One of the Famous Rule Engine is __Drools__, below is the sample rule confi
 ![](../Images/RuleEngine/output.png)
 
 - Rule Repository (To Decouple the System and handle large requests) - No SQL Database
-- Load Balancer (Distributes Load Across Multiple Rule Management Service)
+- API Gateway (Distributes Load Across Multiple Rule Management Service, Service Discovery)
 - Trigger Cache
 - Rule Management Engine Service ( Inference Engine + Application Logic to perform CRUD Operations)
 - Inference Engine Methods
