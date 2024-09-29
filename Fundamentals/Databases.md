@@ -38,7 +38,7 @@ Overview : https://www.youtube.com/watch?v=bI8Ry6GhMSE&t
     - It is complex (Leader election and Conflict resolution is resource intensive) but Effective.
 - Leaderless Replication (Amazon Dynamo DB re Popularized this), Most Cloud providers use this architecture.
     - consistency is achieved through a combination of mechanisms such as quorum-based voting and conflict resolution.
-NOTE : Consensus is used in Terms of Failover, Quorum based voting methods are used in agreements and resolutions.
+NOTE : Consensus Algorithms (Paxos, Raft) are used in Terms of Failover, Quorum based voting methods are used in agreements and resolutions.
 
 ### Consistent Hashing
 

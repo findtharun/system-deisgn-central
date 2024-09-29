@@ -21,6 +21,7 @@ Eg : Stock Broker Application (all requests are in Queue, Stock Broker has 1 Cor
 - Messages are removed once consumed in Queue, Kafka Retains them (Default 1 Week)
 - Message Ordering (Any Queue can access any message) , In Kafka Partitions, Offsets are present to ensure order is maintained.
 - Queues have no Limit over consumers, Kafka has no.of consumers  Per consumer Group = no.of partitions in the topic
+- Queues are Push Based (broker pushes messages to consumers as soon as they become available in the queue.), Kafka (Pull Based - onsumers pull messages from the broker at their own pace.)
 
 Explanation : https://www.youtube.com/watch?v=7gMm0iQNZGA
 
