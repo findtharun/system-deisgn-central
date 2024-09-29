@@ -37,7 +37,7 @@ Eg : One of the Famous Rule Engine is __Drools__, below is the sample rule confi
 
 ## HLD Deepdive
 
-![](../Images/RuleEngine/Output.png)
+![](../Images/RuleEngine/output.png)
 
 - Rule Repository (To Decouple the System and handle large requests) - No SQL Database
 - Load Balancer (Distributes Load Across Multiple Rule Management Service)
