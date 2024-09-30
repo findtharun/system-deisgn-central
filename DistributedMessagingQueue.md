@@ -22,3 +22,7 @@ Syn-Acks
 
 
 ![](Images/Kafka/FinalDesign.png)
+
+### Resources
+
+- https://medium.com/@aalekh.xams/demystifying-apache-kafka-everything-you-need-to-know-2b1d8fe1cb41
