@@ -5,7 +5,9 @@ It involves predefined metrics and thresholds to detect known issues. (Eg: Laten
 
 __Measure and Consolidate Key Metrics, Visualize them and Send Alerts.__
 
-Eg : Nagios, Prometheus (Preferred for Time Series) , DataDog,  New Relic
+Eg : Nagios, Prometheus (Though has UI, Mainly used for Query, Debugging and Grafana is recommended for Visualization of Prometheus Data) , 
+DataDog,  New Relic
+![](assets/PrometheusArchitecture.png)
 ### 4 Fundamental Metrics of Monitoring
 
 1. Latency
@@ -37,3 +39,6 @@ __Monitoring Can Detect and Alert us, To Fully find the root cause and resolve i
 | **Focus**               | Known issues and system uptime                           | Understanding system behavior and diagnosing unknown issues |
 | **Complexity Handling** | Suited for simpler, predictable systems                  | Designed for complex, distributed, and dynamic systems    |
 | **Goal**                | Ensure systems run within expected parameters            | Provide insights into system internals for deep analysis  |
+
+## Resources
+- https://www.youtube.com/watch?v=vY61h6cSkVA
