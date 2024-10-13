@@ -1,3 +1,4 @@
+
 Distributed Systems - A colelection of independent computers that appears to its users as one Computer.
  - Computers operate Concurrently
  - Computers Fail Independently
@@ -31,4 +32,7 @@ https://aws.amazon.com/compare/the-difference-between-throughput-and-latency/
 - Parallel (2 Chefs , 1 Making Sandwich , 1 Making Salad)
     - Multi Core Processing
 
-
+## Resources
+- [Byte Monk Playlist](https://www.youtube.com/watch?v=yioOQ4ItYuo&list=PLJq-63ZRPdBt423WbyAD1YZO0Ljo1pzvY)
+- https://medium.com/@sourabhatta1819/consensus-in-distributed-system-ac79f8ba2b8c
+- https://hackernoon.com/eventual-vs-strong-consistency-in-distributed-databases-282fdad37cf7
