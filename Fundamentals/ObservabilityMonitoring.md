@@ -41,4 +41,6 @@ __Monitoring Can Detect and Alert us, To Fully find the root cause and resolve i
 | **Goal**                | Ensure systems run within expected parameters            | Provide insights into system internals for deep analysis  |
 
 ## Resources
-- https://www.youtube.com/watch?v=vY61h6cSkVA
+- Overview : https://www.youtube.com/watch?v=TYE2u7QZNVA
+- APM vs Observability : https://www.youtube.com/watch?v=dXohgVATzDc
+- [Best Explanation  - Pavan Elthepu's Monitoring Playlist](https://www.youtube.com/watch?v=vY61h6cSkVA&list=PLrMP04WSdCjrL4OBnaqXRy8X3XEd7ZrKf)
