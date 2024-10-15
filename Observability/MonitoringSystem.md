@@ -11,7 +11,6 @@
 
 - Push Based Metrics Collector (Eg : AWS Cloud Watch)
 - Pull Based Metrics Collector (eg : Prometheus)
-
 #### Space Optimization
 - Data Encoding and Compression
 - DownSampling
@@ -19,5 +18,7 @@
 
 
 ![alt text](../Images/MonitoringAlerting/AlertingSystem.png)
+
+- In Either Case (Push / Pull) Metrics Collector should act as Producer(Gather all data from Sources) and Push to Kafka. Then consumers or streaming processing services such as Apache Storm, Flink, and Spark, process and push data to the time-series database.
 
 ![alt text](../Images/MonitoringAlerting/FinalDesign.png)
